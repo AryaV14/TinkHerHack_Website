@@ -695,9 +695,8 @@ section {
 }
 
 #services .box h4 {
-  margin-left: 100px;
+  /* margin-left: 100px; */
   font-weight: 700;
-  margin-bottom: 15px;
   font-size: 22px;
 }
 
@@ -705,17 +704,32 @@ section {
   color: #444;
 }
 
+#services .box  button {
+  font-size: 12px;
+  background: #2c2c2c;
+  border: 2px solid #2c2c2c;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#services .box  button:hover {
+  background: none;
+  color: #1a1a1a;
+}
+
 #services .box p {
   font-size: 14px;
-  margin-left: 100px;
-  margin-bottom: 0;
-  line-height: 24px;
+  margin-bottom: 15px;
+  /* margin-left: 100px; */
+  /* margin-bottom: 0; */
+  /* line-height: 24px; */
 }
 
 @media (max-width: 767px) {
   #services .box .box {
     margin-bottom: 20px;
   }
+ 
 
   #services .box .icon {
     float: none;
@@ -724,9 +738,10 @@ section {
   }
 
   #services .box h4,
-  #services .box p {
+  #services .box p,
+  #services .box button{
     margin-left: 0;
-    text-align: center;
+    text-align: left;
   }
 }
 
